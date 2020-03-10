@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2019-06-09 21:00">
+<shop>
+	<name>RED</name>
+	<company>CD Projekt RED</company>
+	<url>https://eu.store.cdprojektred.com</url>
+	<currencies>
+		<currency id="UAH" rate="1"/>
+	</currencies>
+	<categories>
+		<category id="2">Женская одежда</category>
+		<category id="21" parentId="2">Женские платья</category>
+		<category id="22" parentId="2">Женские кожаные куртки</category>
+	</categories>
+	<offers>
+		<offer id="19305" available="true">
+			<price>4499</price>
+			<currencyId>UAH</currencyId>
+			<categoryId>22</categoryId>
+			<picture>https://ueeshop.ly200-cdn.com/u_file/UPAD/UPAD406/1808/photo/b0fc69af4d.jpg</picture>
+			<picture>https://cdn.shopify.com/s/files/1/0015/6499/9746/products/095_1200x1200.jpg</picture>
+			<vendor>Abc clothes</vendor>
+			<stock_quantity>99</stock_quantity>
+			<name>Куртка Samurai Женская</name>
+			<description>Куртка Samurai Женская</description>
+			<param name="Вид">Куртка</param>
+			<param name="Размер">XL</param>
+			<param name="Сезон">Весна-Осень</param>
+			<param name="Категория">Женская</param>
+			<param name="Артикул">2077</param>
+		</offer>
+		<offer id="19306" available="false">
+			<price>777</price>
+			<currencyId>UAH</currencyId>
+			<categoryId>21</categoryId>		
+			<picture>https://ih1.redbubble.net/image.627477165.1974/gtdr,x1800,front,black-c,255,133,750,1000-bg,f8f8f8.jpg</picture>
+			<vendor>Abc clothes</vendor>
+			<stock_quantity>20</stock_quantity>
+			<name>Платье Cyberpunk 2077 XXL</name>
+			<param name="Вид">Платье</param>
+			<param name="Размер">XXL</param>
+			<param name="Сезон">Лето</param>
+			<param name="Категория">Женская</param>
+			<param name="Артикул">777</param>
+		</offer>
+	</offers>
+</shop>
+</yml_catalog>
